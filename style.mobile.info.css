@@ -1,0 +1,36 @@
+@media screen and (max-width: 630px) {
+  body {
+    background-size: cover;
+  }
+
+  section.container-max {
+    background-color: rgba(68, 67, 67, 0.594);
+    margin: auto;
+    width: 90%;
+    height: 105vh;
+    border-radius: 5px;
+  }
+
+  section.container-video {
+    background-color: rgb(160, 157, 157);
+    margin: auto;
+    margin-top: 13%;
+    width: 100%;
+    height: 45vh;
+    background-image: url(https://i.ytimg.com/vi/H0t8ZDNXyy0/maxresdefault.jpg);
+    background-size: cover;
+  }
+
+  .container-btn-rodape {
+    background-color: blue;
+  }
+
+  section.container-video video {
+    width: 100%;
+    height: 45vh;
+    border-start-end-radius: 5px;
+    box-shadow: none;
+    border: none;
+    border-radius: 15px;
+  }
+}
